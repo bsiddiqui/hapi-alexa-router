@@ -1,0 +1,29 @@
+{
+  "name": "hapi-alexa-router",
+  "version": "1.0.0",
+  "description": "A plugin for handling alexa-router through hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && lab --verbose --colors --assert code",
+    "test-cov": "standard && npm test -- -r console -o stdout -r html -o coverage/coverage.html -r lcov -o coverage/lcov.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estate/hapi-alexa-router.git"
+  },
+  "keywords": [
+    "alexa",
+    "router",
+    "plugin",
+    "hapi"
+  ],
+  "author": "Estate <team@tryestate.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "alexa-router": "^v1.0.0",
+    "code": "^3.0.1",
+    "hapi": "^13.5.0",
+    "lab": "^10.9.0",
+    "standard": "^7.1.2"
+  }
+}
