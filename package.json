@@ -1,6 +1,6 @@
 {
   "name": "hapi-alexa-router",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A plugin for handling alexa-router through hapi",
   "main": "index.js",
   "scripts": {
