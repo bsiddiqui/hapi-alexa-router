@@ -5,7 +5,7 @@ exports.register = (server, options, next) => {
     method: 'POST',
     path: options.path,
     handler: (request, reply) => {
-      options.alexa.dispatch(request.payload).then(reply, reply)
+      options.alexa.dispatch(request.payload, request.headers).then(reply, reply)
     }
   })
 

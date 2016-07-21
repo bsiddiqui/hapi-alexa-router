@@ -20,7 +20,7 @@
   "author": "Estate <team@tryestate.com>",
   "license": "MIT",
   "devDependencies": {
-    "alexa-router": "^v1.0.0",
+    "alexa-router": "^v2.0.0",
     "code": "^3.0.1",
     "hapi": "^13.5.0",
     "lab": "^10.9.0",
